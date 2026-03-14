@@ -1,5 +1,17 @@
 //complete this code
-class Person {}
+class Person {
+	constructor(name,age){
+		this.name=name
+		this.age=age
+	}
+	get name(){
+		return this.name
+	}
+	set name(mine){
+		this.age=mine
+	}
+	
+}
 
 class Student extends Person {}
 
